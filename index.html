@@ -1,15 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR" data-lang="pt"
+      data-title-pt="Jayzil Studios — Infraestrutura Invisível. Precisão Visível."
+      data-title-en="Jayzil Studios — Invisible Infrastructure. Visible Precision.">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Jayzil Studios — Invisible Infrastructure. Visible Precision.</title>
-<meta name="description" content="Jayzil Studios designs tools for routines, memory, and executive function. Structural support, built for daily life." />
+<title>Jayzil Studios — Infraestrutura Invisível. Precisão Visível.</title>
+<meta name="description" content="A Jayzil Studios cria ferramentas para rotinas, memória e função executiva. Suporte estrutural para o seu dia a dia." />
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="assets/style.css" />
+<script src="assets/i18n.js"></script>
 </head>
 <body>
 
@@ -23,21 +26,32 @@
       <span class="word">Jayzil Studios</span>
     </a>
     <div class="nav-links">
-      <a href="#products">Products</a>
-      <a href="#studio">Studio</a>
-      <a href="#contact" class="cta">Contact</a>
+      <a href="#products"><span data-i18n="pt">Produtos</span><span data-i18n="en">Products</span></a>
+      <a href="#studio"><span data-i18n="pt">Estúdio</span><span data-i18n="en">Studio</span></a>
+      <a href="#contact"><span data-i18n="pt">Contato</span><span data-i18n="en">Contact</span></a>
+      <div class="lang-switch" role="group" aria-label="Idioma / Language">
+        <button type="button" data-set-lang="pt">PT</button>
+        <span class="sep">/</span>
+        <button type="button" data-set-lang="en">EN</button>
+      </div>
     </div>
   </div>
 </nav>
 
 <header class="hero" id="top">
   <div class="wrap">
-    <span class="mono accent">Jayzil Studios / São Paulo</span>
-    <h1>Structure<br>for the<br><span>mind.</span></h1>
-    <p class="lede">We build software for routines, memory, and executive function. No noise. No clutter. Just the structure your day is missing.</p>
+    <span class="mono accent">Jayzil Studios / Curitiba, PR — <span data-i18n="pt">Brasil</span><span data-i18n="en">Brazil</span></span>
+    <h1>
+      <span data-i18n="pt">Estrutura<br>para a<br><span class="hl">mente.</span></span>
+      <span data-i18n="en">Structure<br>for the<br><span class="hl">mind.</span></span>
+    </h1>
+    <p class="lede">
+      <span data-i18n="pt">Criamos software para rotinas, memória e função executiva. Sem ruído. Sem excesso. Apenas a estrutura que falta ao seu dia.</span>
+      <span data-i18n="en">We build software for routines, memory, and executive function. No noise. No clutter. Just the structure your day is missing.</span>
+    </p>
     <div class="hero-actions">
-      <a class="btn primary" href="#products">See the products</a>
-      <a class="btn ghost" href="#contact">Get in touch</a>
+      <a class="btn primary" href="#products"><span data-i18n="pt">Ver os produtos</span><span data-i18n="en">See the products</span></a>
+      <a class="btn ghost" href="#contact"><span data-i18n="pt">Fale conosco</span><span data-i18n="en">Get in touch</span></a>
     </div>
   </div>
 </header>
@@ -45,37 +59,55 @@
 <section class="section" id="products">
   <div class="wrap">
     <div class="section-head">
-      <h2>Products</h2>
-      <span class="mono">01 — Live · 02 — In development</span>
+      <h2><span data-i18n="pt">Produtos</span><span data-i18n="en">Products</span></h2>
+      <span class="mono">
+        <span data-i18n="pt">01 — Ativo · 02 — Em desenvolvimento</span>
+        <span data-i18n="en">01 — Live · 02 — In development</span>
+      </span>
     </div>
 
     <div class="bento">
-      <div class="cell span-4">
-        <span class="mono accent tag">Product 01 — Health</span>
+      <a class="cell span-4" href="triaga/">
+        <span class="mono accent tag"><span data-i18n="pt">Produto 01 — Saúde</span><span data-i18n="en">Product 01 — Health</span></span>
         <h3>Triaga</h3>
-        <p>Medication reminders that never miss. Set the schedule once — Triaga carries the rhythm from there.</p>
+        <p>
+          <span data-i18n="pt">Lembretes de medicação que nunca falham. Configure o horário uma vez — o Triaga cuida do ritmo a partir daí.</span>
+          <span data-i18n="en">Medication reminders that never miss. Set the schedule once — Triaga carries the rhythm from there.</span>
+        </p>
         <div class="row">
           <span class="dot"></span>
-          <a class="btn ghost" href="triaga/">Support &amp; privacy →</a>
+          <span class="mono">
+            <span data-i18n="pt">Ver produto →</span>
+            <span data-i18n="en">View product →</span>
+          </span>
         </div>
-      </div>
+      </a>
 
       <div class="cell span-2">
-        <span class="mono tag">Studio note</span>
-        <h3>Built to disappear</h3>
-        <p>The best tool is the one you stop noticing. That's the standard for everything we ship.</p>
+        <span class="mono tag"><span data-i18n="pt">Nota do estúdio</span><span data-i18n="en">Studio note</span></span>
+        <h3><span data-i18n="pt">Feito para desaparecer</span><span data-i18n="en">Built to disappear</span></h3>
+        <p>
+          <span data-i18n="pt">A melhor ferramenta é aquela que você para de notar. Esse é o padrão para tudo o que lançamos.</span>
+          <span data-i18n="en">The best tool is the one you stop noticing. That's the standard for everything we ship.</span>
+        </p>
       </div>
 
       <div class="cell span-3 muted">
-        <span class="mono tag">Product 02 — Routines</span>
-        <h3>In development</h3>
-        <p>A new tool for daily structure. Details soon.</p>
+        <span class="mono tag"><span data-i18n="pt">Produto 02 — Rotinas</span><span data-i18n="en">Product 02 — Routines</span></span>
+        <h3><span data-i18n="pt">Em desenvolvimento</span><span data-i18n="en">In development</span></h3>
+        <p>
+          <span data-i18n="pt">Uma nova ferramenta para estrutura diária. Detalhes em breve.</span>
+          <span data-i18n="en">A new tool for daily structure. Details soon.</span>
+        </p>
       </div>
 
       <div class="cell span-3 muted">
-        <span class="mono tag">Product 03 — Memory</span>
-        <h3>In development</h3>
-        <p>Executive function support, built for everyday recall.</p>
+        <span class="mono tag"><span data-i18n="pt">Produto 03 — Memória</span><span data-i18n="en">Product 03 — Memory</span></span>
+        <h3><span data-i18n="pt">Em desenvolvimento</span><span data-i18n="en">In development</span></h3>
+        <p>
+          <span data-i18n="pt">Suporte à função executiva, feito para o dia a dia.</span>
+          <span data-i18n="en">Executive function support, built for everyday recall.</span>
+        </p>
       </div>
     </div>
   </div>
@@ -84,19 +116,25 @@
 <section class="section" id="studio">
   <div class="wrap">
     <div class="section-head">
-      <h2>Studio</h2>
-      <span class="mono">Philosophy</span>
+      <h2><span data-i18n="pt">Estúdio</span><span data-i18n="en">Studio</span></h2>
+      <span class="mono"><span data-i18n="pt">Filosofia</span><span data-i18n="en">Philosophy</span></span>
     </div>
     <div class="bento">
       <div class="cell span-3">
-        <span class="mono accent tag">Precision</span>
-        <h3>Every pixel earns its place</h3>
-        <p>No decoration without function. If it doesn't remove friction, it doesn't ship.</p>
+        <span class="mono accent tag"><span data-i18n="pt">Precisão</span><span data-i18n="en">Precision</span></span>
+        <h3><span data-i18n="pt">Cada pixel tem seu lugar</span><span data-i18n="en">Every pixel earns its place</span></h3>
+        <p>
+          <span data-i18n="pt">Nenhuma decoração sem função. Se não remove atrito, não vai ao ar.</span>
+          <span data-i18n="en">No decoration without function. If it doesn't remove friction, it doesn't ship.</span>
+        </p>
       </div>
       <div class="cell span-3">
-        <span class="mono accent tag">Rhythm</span>
-        <h3>Software that keeps time</h3>
-        <p>Routines, memory, focus — the roadmap is one idea, applied consistently.</p>
+        <span class="mono accent tag"><span data-i18n="pt">Ritmo</span><span data-i18n="en">Rhythm</span></span>
+        <h3><span data-i18n="pt">Software que mantém o ritmo</span><span data-i18n="en">Software that keeps time</span></h3>
+        <p>
+          <span data-i18n="pt">Rotinas, memória, foco — o roteiro é uma ideia só, aplicada com consistência.</span>
+          <span data-i18n="en">Routines, memory, focus — the roadmap is one idea, applied consistently.</span>
+        </p>
       </div>
     </div>
   </div>
@@ -105,14 +143,20 @@
 <section class="section" id="contact" style="border-bottom:none;">
   <div class="wrap">
     <div class="section-head">
-      <h2>Contact</h2>
+      <h2><span data-i18n="pt">Contato</span><span data-i18n="en">Contact</span></h2>
     </div>
     <div class="contact-card">
       <div>
-        <span class="mono tag">General &amp; support inquiries</span>
+        <span class="mono tag">
+          <span data-i18n="pt">Contato geral e suporte</span>
+          <span data-i18n="en">General &amp; support inquiries</span>
+        </span>
         <h3 style="margin-top:10px;font-size:22px;">contato@jayzil.com.br</h3>
       </div>
-      <a class="btn primary" href="mailto:contato@jayzil.com.br">Send an email</a>
+      <a class="btn primary" href="mailto:contato@jayzil.com.br">
+        <span data-i18n="pt">Enviar e-mail</span>
+        <span data-i18n="en">Send an email</span>
+      </a>
     </div>
   </div>
 </section>
@@ -121,8 +165,12 @@
   <div class="wrap">
     <span class="mono">© 2026 Jayzil Studios</span>
     <div class="links">
-      <a class="mono" href="triaga/">Triaga Support</a>
-      <a class="mono" href="triaga/privacy.html">Triaga Privacy</a>
+      <a class="mono" href="triaga/">
+        <span data-i18n="pt">Suporte Triaga</span><span data-i18n="en">Triaga Support</span>
+      </a>
+      <a class="mono" href="triaga/privacy.html">
+        <span data-i18n="pt">Privacidade Triaga</span><span data-i18n="en">Triaga Privacy</span>
+      </a>
       <a class="mono" href="mailto:contato@jayzil.com.br">contato@jayzil.com.br</a>
     </div>
   </div>
