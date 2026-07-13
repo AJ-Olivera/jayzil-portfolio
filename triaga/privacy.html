@@ -11,8 +11,40 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="../assets/style.css" />
-<script src="../assets/i18n.js"></script>
+<link rel="stylesheet" href="../assets/style.css?v=3" />
+<script>
+(function () {
+  var KEY = "jayzil-lang";
+  var lang = localStorage.getItem(KEY) || "pt";
+  function apply(l) {
+    lang = l;
+    var el = document.documentElement;
+    el.setAttribute("data-lang", lang);
+    el.setAttribute("lang", lang === "pt" ? "pt-BR" : "en");
+    var title = el.getAttribute(lang === "pt" ? "data-title-pt" : "data-title-en");
+    if (title) document.title = title;
+  }
+  apply(lang);
+  document.addEventListener("DOMContentLoaded", function () {
+    var buttons = document.querySelectorAll(".lang-switch button[data-set-lang]");
+    function refresh() {
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].classList.toggle("active", buttons[i].getAttribute("data-set-lang") === lang);
+      }
+    }
+    refresh();
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].addEventListener("click", function () {
+        var next = this.getAttribute("data-set-lang");
+        if (next === lang) return;
+        apply(next);
+        localStorage.setItem(KEY, next);
+        refresh();
+      });
+    }
+  });
+})();
+</script>
 </head>
 <body>
 

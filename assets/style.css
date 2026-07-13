@@ -168,13 +168,6 @@ p { color: var(--gray-1); margin: 0; }
   color: var(--gray-1);
 }
 
-.hero-actions {
-  margin-top: 44px;
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
 /* ---------- Buttons ---------- */
 
 .btn {
@@ -198,9 +191,6 @@ p { color: var(--gray-1); margin: 0; }
 }
 
 .btn.primary:hover { background: var(--accent); border-color: var(--accent); color: var(--white); }
-
-.btn.ghost { color: var(--white); }
-.btn.ghost:hover { border-color: var(--white); }
 
 /* ---------- Section heads ---------- */
 
@@ -257,6 +247,8 @@ p { color: var(--gray-1); margin: 0; }
   text-transform: uppercase;
   margin: 24px 0 12px;
 }
+
+.cell h3:first-child { margin-top: 0; }
 
 .cell p { font-size: 15px; }
 
