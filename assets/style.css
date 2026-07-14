@@ -173,7 +173,7 @@ html[data-theme="light"] .theme-dot { background: #3d5cff; }
 
 .hero {
   padding: 140px 0 100px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 4px solid var(--fg);
 }
 
 .hero .mono { margin-bottom: 28px; display: block; }
@@ -221,7 +221,7 @@ html[data-theme="light"] .theme-dot { background: #3d5cff; }
 
 .section {
   padding: 100px 0;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 4px solid var(--fg);
 }
 
 .section-head {
@@ -313,7 +313,7 @@ footer a.mono:hover { color: var(--fg); }
 /* ---------- Sub-pages (Triaga) ---------- */
 
 .page-head {
-  border-bottom: 1px solid var(--border);
+  border-bottom: 4px solid var(--fg);
 }
 
 .page-head .wrap {
@@ -353,10 +353,6 @@ footer a.mono:hover { color: var(--fg); }
 }
 
 .prose ul { padding-left: 20px; }
-
-.faq {
-  border-top: 1px solid var(--border);
-}
 
 .faq-item {
   padding: 32px 0;
