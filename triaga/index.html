@@ -1,49 +1,46 @@
 <!doctype html>
-<html lang="pt-BR" data-lang="pt"
-      data-title-pt="Suporte Triaga — Jayzil Studios"
-      data-title-en="Triaga Support — Jayzil Studios">
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Suporte Triaga — Jayzil Studios</title>
 <meta name="description" content="Suporte para o Triaga, o aplicativo de lembretes de medicação da Jayzil Studios." />
+<meta name="theme-color" content="#0d0d0d" />
+<link rel="canonical" href="https://jayzil.com.br/triaga/" />
+<link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/triaga/" />
+<link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/triaga/" />
+<link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/triaga/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Jayzil Studios" />
+<meta property="og:title" content="Suporte Triaga — Jayzil Studios" />
+<meta property="og:description" content="Suporte para o Triaga, o aplicativo de lembretes de medicação da Jayzil Studios." />
+<meta property="og:url" content="https://jayzil.com.br/triaga/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:image" content="https://jayzil.com.br/assets/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Suporte Triaga — Jayzil Studios" />
+<meta name="twitter:description" content="Suporte para o Triaga, o aplicativo de lembretes de medicação." />
+<meta name="twitter:image" content="https://jayzil.com.br/assets/og-image.png" />
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="../assets/style.css?v=7" />
-<script>
-(function () {
-  var KEY = "jayzil-lang";
-  var lang = localStorage.getItem(KEY) || "pt";
-  function apply(l) {
-    lang = l;
-    var el = document.documentElement;
-    el.setAttribute("data-lang", lang);
-    el.setAttribute("lang", lang === "pt" ? "pt-BR" : "en");
-    var title = el.getAttribute(lang === "pt" ? "data-title-pt" : "data-title-en");
-    if (title) document.title = title;
+<link rel="stylesheet" href="../assets/style.css?v=8" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Triaga",
+  "applicationCategory": "HealthApplication",
+  "description": "Aplicativo de lembretes de medicação que funciona inteiramente no aparelho, sem contas ou sincronização na nuvem.",
+  "url": "https://jayzil.com.br/triaga/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jayzil Studios",
+    "url": "https://jayzil.com.br/"
   }
-  apply(lang);
-  document.addEventListener("DOMContentLoaded", function () {
-    var buttons = document.querySelectorAll(".lang-switch button[data-set-lang]");
-    function refresh() {
-      for (var i = 0; i < buttons.length; i++) {
-        buttons[i].classList.toggle("active", buttons[i].getAttribute("data-set-lang") === lang);
-      }
-    }
-    refresh();
-    for (var i = 0; i < buttons.length; i++) {
-      buttons[i].addEventListener("click", function () {
-        var next = this.getAttribute("data-set-lang");
-        if (next === lang) return;
-        apply(next);
-        localStorage.setItem(KEY, next);
-        refresh();
-      });
-    }
-  });
-})();
+}
 </script>
 </head>
 <body>
@@ -58,14 +55,10 @@
       <span class="word">Jayzil Studios</span>
     </a>
     <div class="nav-links">
-      <a href="../index.html#products"><span data-i18n="pt">Produtos</span><span data-i18n="en">Products</span></a>
-      <a href="../index.html#studio"><span data-i18n="pt">Estúdio</span><span data-i18n="en">Studio</span></a>
-      <a href="../index.html#contact"><span data-i18n="pt">Contato</span><span data-i18n="en">Contact</span></a>
-      <div class="lang-switch" role="group" aria-label="Idioma / Language">
-        <button type="button" data-set-lang="pt">PT</button>
-        <span class="sep">/</span>
-        <button type="button" data-set-lang="en">EN</button>
-      </div>
+      <a href="../index.html#products">Produtos</a>
+      <a href="../index.html#studio">Estúdio</a>
+      <a href="../index.html#contact">Contato</a>
+      <div class="lang-switch"><a href="../en/triaga/index.html">EN</a></div>
     </div>
   </div>
 </nav>
@@ -73,20 +66,14 @@
 <header class="page-head">
   <div class="wrap">
     <h1>Triaga</h1>
-    <p class="lede">
-      <span data-i18n="pt">O Triaga envia lembretes de medicação no horário certo — nada além disso. Respostas abaixo; contato direto no final da página.</span>
-      <span data-i18n="en">Triaga sends medication reminders on schedule — nothing more. Answers below; direct contact at the bottom.</span>
-    </p>
+    <p class="lede">O Triaga envia lembretes de medicação no horário certo — nada além disso. Respostas abaixo; contato direto no final da página.</p>
   </div>
 </header>
 
 <section class="section">
   <div class="wrap prose">
-    <h2><span data-i18n="pt">O que o Triaga faz</span><span data-i18n="en">What Triaga does</span></h2>
-    <p>
-      <span data-i18n="pt">O Triaga é um aplicativo de lembretes de medicação. Configure um horário uma vez, e o Triaga avisa quando for a hora de cada dose. Esse é todo o trabalho dele — sem contas, sem recursos sociais, sem excesso.</span>
-      <span data-i18n="en">Triaga is a medication reminder app. Set a schedule once, and Triaga notifies you when it's time to take each dose. That's the entire job — no accounts, no social features, no clutter.</span>
-    </p>
+    <h2>O que o Triaga faz</h2>
+    <p>O Triaga é um aplicativo de lembretes de medicação. Configure um horário uma vez, e o Triaga avisa quando for a hora de cada dose. Esse é todo o trabalho dele — sem contas, sem recursos sociais, sem excesso.</p>
   </div>
 </section>
 
@@ -95,66 +82,46 @@
     <h2>FAQ</h2>
 
     <div class="faq-item">
-      <h3><span data-i18n="pt">Como funcionam os lembretes?</span><span data-i18n="en">How do reminders work?</span></h3>
-      <p>
-        <span data-i18n="pt">Adicione um medicamento e um horário dentro do aplicativo. O Triaga envia uma notificação local em cada horário programado — sem necessidade de conexão com a internet.</span>
-        <span data-i18n="en">Add a medication and a schedule inside the app. Triaga sends a local notification at each scheduled time — no internet connection required.</span>
-      </p>
+      <h3>Como funcionam os lembretes?</h3>
+      <p>Adicione um medicamento e um horário dentro do aplicativo. O Triaga envia uma notificação local em cada horário programado — sem necessidade de conexão com a internet.</p>
     </div>
 
     <div class="faq-item">
-      <h3><span data-i18n="pt">Não estou recebendo notificações. O que devo verificar?</span><span data-i18n="en">I'm not receiving notifications. What should I check?</span></h3>
-      <p>
-        <span data-i18n="pt">Confirme se as notificações estão ativadas para o Triaga nas configurações do seu aparelho, e se a otimização de bateria ou o modo "Não perturbe" não estão silenciando o aplicativo. Reinstalar o aplicativo não restaura os lembretes, a menos que você configure o horário novamente.</span>
-        <span data-i18n="en">Confirm notifications are enabled for Triaga in your device settings, and that battery optimization or "Do Not Disturb" rules aren't silencing the app. Reinstalling the app will not restore reminders unless you re-enter your schedule.</span>
-      </p>
+      <h3>Não estou recebendo notificações. O que devo verificar?</h3>
+      <p>Confirme se as notificações estão ativadas para o Triaga nas configurações do seu aparelho, e se a otimização de bateria ou o modo "Não perturbe" não estão silenciando o aplicativo. Reinstalar o aplicativo não restaura os lembretes, a menos que você configure o horário novamente.</p>
     </div>
 
     <div class="faq-item">
-      <h3><span data-i18n="pt">Posso editar ou excluir um horário de medicação?</span><span data-i18n="en">Can I edit or delete a medication schedule?</span></h3>
-      <p>
-        <span data-i18n="pt">Sim. Abra o medicamento na lista principal para editar os horários, observações de dose, ou excluí-lo completamente.</span>
-        <span data-i18n="en">Yes. Open the medication from the main list to edit its times, dosage notes, or delete it entirely.</span>
-      </p>
+      <h3>Posso editar ou excluir um horário de medicação?</h3>
+      <p>Sim. Abra o medicamento na lista principal para editar os horários, observações de dose, ou excluí-lo completamente.</p>
     </div>
 
     <div class="faq-item">
-      <h3><span data-i18n="pt">O que acontece se eu perder uma dose?</span><span data-i18n="en">What happens if I miss a dose?</span></h3>
-      <p>
-        <span data-i18n="pt">O Triaga mostrará o lembrete perdido até que você o dispense ou marque como tomado. O Triaga não diagnostica, prescreve ou oferece aconselhamento médico — siga sempre as orientações do seu médico ou farmacêutico.</span>
-        <span data-i18n="en">Triaga will show the missed reminder until you dismiss or mark it as taken. Triaga does not diagnose, prescribe, or offer medical advice — always follow guidance from your doctor or pharmacist.</span>
-      </p>
+      <h3>O que acontece se eu perder uma dose?</h3>
+      <p>O Triaga mostrará o lembrete perdido até que você o dispense ou marque como tomado. O Triaga não diagnostica, prescreve ou oferece aconselhamento médico — siga sempre as orientações do seu médico ou farmacêutico.</p>
     </div>
 
     <div class="faq-item">
-      <h3><span data-i18n="pt">Preciso de uma conta?</span><span data-i18n="en">Do I need an account?</span></h3>
-      <p>
-        <span data-i18n="pt">Não. O Triaga não tem login e não sincroniza dados em nenhum lugar. Tudo fica no seu aparelho. Veja a <a href="privacy.html" style="color:var(--accent);">política de privacidade</a> para mais detalhes.</span>
-        <span data-i18n="en">No. Triaga has no login and does not sync data anywhere. Everything lives on your device. See the <a href="privacy.html" style="color:var(--accent);">privacy policy</a> for details.</span>
-      </p>
+      <h3>Preciso de uma conta?</h3>
+      <p>Não. O Triaga não tem login e não sincroniza dados em nenhum lugar. Tudo fica no seu aparelho. Veja a <a href="privacy.html" style="color:var(--accent);">política de privacidade</a> para mais detalhes.</p>
     </div>
 
     <div class="faq-item">
-      <h3><span data-i18n="pt">Como eu excluo meus dados?</span><span data-i18n="en">How do I delete my data?</span></h3>
-      <p>
-        <span data-i18n="pt">Desinstalar o Triaga remove todos os horários e lembretes armazenados localmente no seu aparelho.</span>
-        <span data-i18n="en">Uninstalling Triaga removes all locally stored schedules and reminders from your device.</span>
-      </p>
+      <h3>Como eu excluo meus dados?</h3>
+      <p>Desinstalar o Triaga remove todos os horários e lembretes armazenados localmente no seu aparelho.</p>
     </div>
   </div>
 </section>
 
 <section class="section" id="contact" style="border-bottom:none;">
   <div class="wrap prose">
-    <h2><span data-i18n="pt">Ainda precisa de ajuda?</span><span data-i18n="en">Still need help?</span></h2>
+    <h2>Ainda precisa de ajuda?</h2>
     <div class="contact-card">
       <div>
-        <span class="mono tag"><span data-i18n="pt">Suporte</span><span data-i18n="en">Support</span></span>
+        <span class="mono tag">Suporte</span>
         <h3 style="margin-top:10px;font-size:22px;">contato@jayzil.com.br</h3>
       </div>
-      <a class="btn primary" href="mailto:contato@jayzil.com.br">
-        <span data-i18n="pt">Enviar e-mail</span><span data-i18n="en">Email support</span>
-      </a>
+      <a class="btn primary" href="mailto:contato@jayzil.com.br">Enviar e-mail</a>
     </div>
   </div>
 </section>
@@ -170,4 +137,3 @@
 
 </body>
 </html>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                              

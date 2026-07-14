@@ -1,50 +1,32 @@
 <!doctype html>
-<html lang="pt-BR" data-lang="pt"
-      data-title-pt="Política de Privacidade do Triaga — Jayzil Studios"
-      data-title-en="Triaga Privacy Policy — Jayzil Studios">
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Política de Privacidade do Triaga — Jayzil Studios</title>
 <meta name="description" content="Política de privacidade do Triaga, o aplicativo de lembretes de medicação da Jayzil Studios." />
+<meta name="theme-color" content="#0d0d0d" />
+<link rel="canonical" href="https://jayzil.com.br/triaga/privacy.html" />
+<link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/triaga/privacy.html" />
+<link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/triaga/privacy.html" />
+<link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/triaga/privacy.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Jayzil Studios" />
+<meta property="og:title" content="Política de Privacidade do Triaga — Jayzil Studios" />
+<meta property="og:description" content="Política de privacidade do Triaga, o aplicativo de lembretes de medicação da Jayzil Studios." />
+<meta property="og:url" content="https://jayzil.com.br/triaga/privacy.html" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:image" content="https://jayzil.com.br/assets/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Política de Privacidade do Triaga" />
+<meta name="twitter:description" content="Política de privacidade do Triaga, o aplicativo de lembretes de medicação." />
+<meta name="twitter:image" content="https://jayzil.com.br/assets/og-image.png" />
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="../assets/style.css?v=7" />
-<script>
-(function () {
-  var KEY = "jayzil-lang";
-  var lang = localStorage.getItem(KEY) || "pt";
-  function apply(l) {
-    lang = l;
-    var el = document.documentElement;
-    el.setAttribute("data-lang", lang);
-    el.setAttribute("lang", lang === "pt" ? "pt-BR" : "en");
-    var title = el.getAttribute(lang === "pt" ? "data-title-pt" : "data-title-en");
-    if (title) document.title = title;
-  }
-  apply(lang);
-  document.addEventListener("DOMContentLoaded", function () {
-    var buttons = document.querySelectorAll(".lang-switch button[data-set-lang]");
-    function refresh() {
-      for (var i = 0; i < buttons.length; i++) {
-        buttons[i].classList.toggle("active", buttons[i].getAttribute("data-set-lang") === lang);
-      }
-    }
-    refresh();
-    for (var i = 0; i < buttons.length; i++) {
-      buttons[i].addEventListener("click", function () {
-        var next = this.getAttribute("data-set-lang");
-        if (next === lang) return;
-        apply(next);
-        localStorage.setItem(KEY, next);
-        refresh();
-      });
-    }
-  });
-})();
-</script>
+<link rel="stylesheet" href="../assets/style.css?v=8" />
 </head>
 <body>
 
@@ -58,94 +40,58 @@
       <span class="word">Jayzil Studios</span>
     </a>
     <div class="nav-links">
-      <a href="../index.html#products"><span data-i18n="pt">Produtos</span><span data-i18n="en">Products</span></a>
-      <a href="../index.html#studio"><span data-i18n="pt">Estúdio</span><span data-i18n="en">Studio</span></a>
-      <a href="../index.html#contact"><span data-i18n="pt">Contato</span><span data-i18n="en">Contact</span></a>
-      <div class="lang-switch" role="group" aria-label="Idioma / Language">
-        <button type="button" data-set-lang="pt">PT</button>
-        <span class="sep">/</span>
-        <button type="button" data-set-lang="en">EN</button>
-      </div>
+      <a href="../index.html#products">Produtos</a>
+      <a href="../index.html#studio">Estúdio</a>
+      <a href="../index.html#contact">Contato</a>
+      <div class="lang-switch"><a href="../en/triaga/privacy.html">EN</a></div>
     </div>
   </div>
 </nav>
 
 <header class="page-head">
   <div class="wrap">
-    <h1><span data-i18n="pt">Política de Privacidade</span><span data-i18n="en">Privacy Policy</span></h1>
-    <p class="lede">
-      <span data-i18n="pt">Vigente a partir de 13 de julho de 2026. Esta política cobre apenas o aplicativo móvel Triaga.</span>
-      <span data-i18n="en">Effective July 13, 2026. This policy covers the Triaga mobile application only.</span>
-    </p>
+    <h1>Política de Privacidade</h1>
+    <p class="lede">Vigente a partir de 13 de julho de 2026. Esta política cobre apenas o aplicativo móvel Triaga.</p>
   </div>
 </header>
 
 <section class="section" style="border-bottom:none;">
   <div class="wrap prose">
 
-    <h2><span data-i18n="pt">Resumo</span><span data-i18n="en">Summary</span></h2>
-    <p>
-      <span data-i18n="pt">O Triaga foi desenvolvido para funcionar inteiramente no seu aparelho. Ele não exige conta, não sincroniza com nenhum servidor e não compartilha suas informações com terceiros. Esta página explica em detalhes o que isso significa.</span>
-      <span data-i18n="en">Triaga is designed to work entirely on your device. It does not require an account, does not sync to a server, and does not share your information with third parties. This page explains what that means in detail.</span>
-    </p>
+    <h2>Resumo</h2>
+    <p>O Triaga foi desenvolvido para funcionar inteiramente no seu aparelho. Ele não exige conta, não sincroniza com nenhum servidor e não compartilha suas informações com terceiros. Esta página explica em detalhes o que isso significa.</p>
 
-    <h2><span data-i18n="pt">Informações que coletamos</span><span data-i18n="en">Information we collect</span></h2>
-    <p>
-      <span data-i18n="pt">O Triaga não coleta dados pessoais em nossos servidores. Nomes de medicamentos, dosagens, horários e histórico de lembretes são armazenados apenas localmente no seu aparelho. A Jayzil Studios não tem acesso a essas informações e não pode visualizá-las, recuperá-las ou restaurá-las.</span>
-      <span data-i18n="en">Triaga does not collect personal data on our servers. Medication names, dosages, schedules, and reminder history are stored locally on your device only. Jayzil Studios has no access to this information and cannot view, retrieve, or recover it.</span>
-    </p>
+    <h2>Informações que coletamos</h2>
+    <p>O Triaga não coleta dados pessoais em nossos servidores. Nomes de medicamentos, dosagens, horários e histórico de lembretes são armazenados apenas localmente no seu aparelho. A Jayzil Studios não tem acesso a essas informações e não pode visualizá-las, recuperá-las ou restaurá-las.</p>
 
-    <h2><span data-i18n="pt">Contas e login</span><span data-i18n="en">Accounts and sign-in</span></h2>
-    <p>
-      <span data-i18n="pt">O Triaga não exige nem oferece criação de conta. Não há login, e nenhum identificador pessoal (como nome ou e-mail) é coletado pelo aplicativo.</span>
-      <span data-i18n="en">Triaga does not require or offer account creation. There is no login, and no personal identifiers (such as name or email) are collected through the app.</span>
-    </p>
+    <h2>Contas e login</h2>
+    <p>O Triaga não exige nem oferece criação de conta. Não há login, e nenhum identificador pessoal (como nome ou e-mail) é coletado pelo aplicativo.</p>
 
-    <h2><span data-i18n="pt">Sincronização e backups na nuvem</span><span data-i18n="en">Cloud sync and backups</span></h2>
-    <p>
-      <span data-i18n="pt">O Triaga não sincroniza dados com a Jayzil Studios ou com qualquer serviço de nuvem de terceiros. Se o sistema operacional do seu aparelho possui um recurso próprio de backup (como um backup em nuvem em nível de sistema), esse backup é gerenciado pelo fabricante do aparelho, não pela Jayzil Studios.</span>
-      <span data-i18n="en">Triaga does not sync data to Jayzil Studios or any third-party cloud service. If your device's operating system includes its own backup feature (such as a system-level cloud backup), that backup is managed by your device manufacturer, not by Jayzil Studios.</span>
-    </p>
+    <h2>Sincronização e backups na nuvem</h2>
+    <p>O Triaga não sincroniza dados com a Jayzil Studios ou com qualquer serviço de nuvem de terceiros. Se o sistema operacional do seu aparelho possui um recurso próprio de backup (como um backup em nuvem em nível de sistema), esse backup é gerenciado pelo fabricante do aparelho, não pela Jayzil Studios.</p>
 
-    <h2><span data-i18n="pt">Terceiros e análise de dados</span><span data-i18n="en">Third parties and analytics</span></h2>
-    <p>
-      <span data-i18n="pt">O Triaga não integra serviços de análise, publicidade ou rastreamento de terceiros. Nenhum dado é vendido ou compartilhado com terceiros.</span>
-      <span data-i18n="en">Triaga does not integrate third-party analytics, advertising, or tracking services. No data is sold or shared with third parties.</span>
-    </p>
+    <h2>Terceiros e análise de dados</h2>
+    <p>O Triaga não integra serviços de análise, publicidade ou rastreamento de terceiros. Nenhum dado é vendido ou compartilhado com terceiros.</p>
 
-    <h2><span data-i18n="pt">Permissões</span><span data-i18n="en">Permissions</span></h2>
-    <p>
-      <span data-i18n="pt">O Triaga solicita permissão de notificação para poder avisá-lo nos horários programados de medicação. Essa permissão é usada exclusivamente para essa finalidade.</span>
-      <span data-i18n="en">Triaga requests notification permission so it can alert you at scheduled medication times. This permission is used solely for that purpose.</span>
-    </p>
+    <h2>Permissões</h2>
+    <p>O Triaga solicita permissão de notificação para poder avisá-lo nos horários programados de medicação. Essa permissão é usada exclusivamente para essa finalidade.</p>
 
-    <h2><span data-i18n="pt">Exclusão de dados</span><span data-i18n="en">Data deletion</span></h2>
-    <p>
-      <span data-i18n="pt">Como todos os dados são armazenados localmente, desinstalar o aplicativo exclui permanentemente todos os dados do Triaga do seu aparelho.</span>
-      <span data-i18n="en">Because all data is stored locally, uninstalling the app permanently deletes all Triaga data from your device.</span>
-    </p>
+    <h2>Exclusão de dados</h2>
+    <p>Como todos os dados são armazenados localmente, desinstalar o aplicativo exclui permanentemente todos os dados do Triaga do seu aparelho.</p>
 
-    <h2><span data-i18n="pt">Privacidade infantil</span><span data-i18n="en">Children's privacy</span></h2>
-    <p>
-      <span data-i18n="pt">O Triaga não é direcionado a crianças e não coleta intencionalmente informações de crianças, já que não coleta dados de forma alguma.</span>
-      <span data-i18n="en">Triaga is not directed at children and does not knowingly collect information from children, as it does not collect data at all.</span>
-    </p>
+    <h2>Privacidade infantil</h2>
+    <p>O Triaga não é direcionado a crianças e não coleta intencionalmente informações de crianças, já que não coleta dados de forma alguma.</p>
 
-    <h2><span data-i18n="pt">Alterações a esta política</span><span data-i18n="en">Changes to this policy</span></h2>
-    <p>
-      <span data-i18n="pt">Caso esta política seja alterada, uma versão atualizada será publicada nesta página com uma nova data de vigência.</span>
-      <span data-i18n="en">If this policy changes, an updated version will be posted on this page with a revised effective date.</span>
-    </p>
+    <h2>Alterações a esta política</h2>
+    <p>Caso esta política seja alterada, uma versão atualizada será publicada nesta página com uma nova data de vigência.</p>
 
-    <h2><span data-i18n="pt">Contato</span><span data-i18n="en">Contact</span></h2>
+    <h2>Contato</h2>
     <div class="contact-card">
       <div>
-        <span class="mono tag"><span data-i18n="pt">Dúvidas sobre privacidade</span><span data-i18n="en">Privacy inquiries</span></span>
+        <span class="mono tag">Dúvidas sobre privacidade</span>
         <h3 style="margin-top:10px;font-size:22px;">contato@jayzil.com.br</h3>
       </div>
-      <a class="btn primary" href="mailto:contato@jayzil.com.br">
-        <span data-i18n="pt">Enviar e-mail</span><span data-i18n="en">Email us</span>
-      </a>
+      <a class="btn primary" href="mailto:contato@jayzil.com.br">Enviar e-mail</a>
     </div>
 
   </div>
@@ -162,4 +108,3 @@
 
 </body>
 </html>
-                                                                                                                                                                                                                                                                                                                                                                                                                
