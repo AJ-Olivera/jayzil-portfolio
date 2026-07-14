@@ -273,7 +273,7 @@ html[data-theme="light"] .theme-dot { background: #3d5cff; }
 
 .cell h3:first-child { margin-top: 0; }
 
-.cell p { font-size: 15px; }
+.cell p { font-size: 15px; text-align: justify; }
 
 .cell .cta {
   align-self: flex-end;
