@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sites — Jayzil Studios</title>
+<meta name="description" content="Os sites desenvolvidos pela Jayzil Studios." />
+<meta name="theme-color" content="#0d0d0d" />
+<link rel="canonical" href="https://jayzil.com.br/websites/" />
+<link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/" />
+<link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/" />
+<link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Jayzil Studios" />
+<meta property="og:title" content="Sites — Jayzil Studios" />
+<meta property="og:description" content="Os sites desenvolvidos pela Jayzil Studios." />
+<meta property="og:url" content="https://jayzil.com.br/websites/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:image" content="https://jayzil.com.br/assets/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Sites — Jayzil Studios" />
+<meta name="twitter:description" content="Os sites desenvolvidos pela Jayzil Studios." />
+<meta name="twitter:image" content="https://jayzil.com.br/assets/og-image.png" />
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../assets/style.css?v=14" />
+<script>
+(function () {
+  var KEY = "jayzil-theme";
+  var COLORS = { dark: "#0d0d0d", light: "#f2ede6" };
+  var theme = localStorage.getItem(KEY) || "dark";
+  function apply(t) {
+    theme = t;
+    document.documentElement.setAttribute("data-theme", theme);
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute("content", COLORS[theme]);
+  }
+  apply(theme);
+  document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.querySelector(".theme-toggle");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      apply(theme === "dark" ? "light" : "dark");
+      localStorage.setItem(KEY, theme);
+    });
+  });
+})();
+</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="../index.html">
+      <svg viewBox="0 0 104 104" xmlns="http://www.w3.org/2000/svg">
+        <polygon class="mark-fg" points="16,16 88,16 16,88"/>
+        <circle class="mark-accent" cx="82" cy="82" r="6"/>
+      </svg>
+      <span class="word">Jayzil Studios</span>
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#products">Produtos</a>
+      <a href="../index.html#studio">Estúdio</a>
+      <a href="../index.html#contact">Contato</a>
+      <div class="lang-switch"><a href="../en/websites/index.html">EN</a></div>
+      <button type="button" class="theme-toggle" aria-label="Alternar tema"><span class="theme-dot"></span></button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <h1>Sites</h1>
+    <p class="lede">Nossa lista de sites ainda está em construção. Volte em breve.</p>
+  </div>
+</header>
+
+<section class="section" style="border-bottom:none;">
+  <div class="wrap">
+    <div class="bento">
+      <div class="cell span-6">
+        <h3>Em desenvolvimento</h3>
+        <p>Nosso primeiro projeto de site está a caminho. Detalhes em breve.</p>
+        <span class="mono cta">Em breve →</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="mono">© 2026 Jayzil Studios</span>
+    <div class="links">
+      <a class="mono" href="mailto:contato@jayzil.com.br">contato@jayzil.com.br</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

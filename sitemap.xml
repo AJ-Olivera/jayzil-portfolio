@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/" />
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -15,44 +15,80 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/" />
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jayzil.com.br/triaga/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/triaga/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/triaga/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/triaga/" />
-    <lastmod>2026-07-13</lastmod>
+    <loc>https://jayzil.com.br/applications/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/applications/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/applications/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/applications/" />
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jayzil.com.br/en/triaga/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/triaga/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/triaga/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/triaga/" />
-    <lastmod>2026-07-13</lastmod>
+    <loc>https://jayzil.com.br/en/applications/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/applications/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/applications/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/applications/" />
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jayzil.com.br/triaga/privacy.html</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/triaga/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/triaga/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/triaga/privacy.html" />
-    <lastmod>2026-07-13</lastmod>
+    <loc>https://jayzil.com.br/applications/triaga/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/applications/triaga/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/applications/triaga/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/applications/triaga/" />
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/en/applications/triaga/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/applications/triaga/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/applications/triaga/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/applications/triaga/" />
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/applications/triaga/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/applications/triaga/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/applications/triaga/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/applications/triaga/privacy.html" />
+    <lastmod>2026-07-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://jayzil.com.br/en/triaga/privacy.html</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/triaga/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/triaga/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/triaga/privacy.html" />
-    <lastmod>2026-07-13</lastmod>
+    <loc>https://jayzil.com.br/en/applications/triaga/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/applications/triaga/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/applications/triaga/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/applications/triaga/privacy.html" />
+    <lastmod>2026-07-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/websites/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/" />
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/en/websites/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/" />
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
