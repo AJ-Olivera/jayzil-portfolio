@@ -100,8 +100,8 @@ p { color: var(--text-2); margin: 0; }
 
 .brand svg { width: 26px; height: 26px; }
 
-.brand svg .mark-fg { stroke: var(--fg); }
-.brand svg .mark-accent { stroke: var(--accent); }
+.brand svg .mark-fg { fill: var(--fg); }
+.brand svg .mark-accent { fill: var(--accent); }
 
 .brand .word {
   font-family: var(--sans);
