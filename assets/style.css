@@ -191,6 +191,7 @@ html[data-theme="light"] .theme-dot { background: #3d5cff; }
   max-width: 460px;
   font-size: 18px;
   color: var(--text-2);
+  text-align: justify;
 }
 
 /* ---------- Buttons ---------- */
@@ -334,6 +335,7 @@ footer a.mono:hover { color: var(--fg); }
   margin-top: 20px;
   max-width: 560px;
   font-size: 17px;
+  text-align: justify;
 }
 
 .prose { max-width: 720px; }
