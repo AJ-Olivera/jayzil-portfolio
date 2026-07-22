@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Triaga — Recordatorios de Medicación de Jayzil Studios</title>
+<meta name="description" content="Triaga es una aplicación privada de recordatorios de medicación: horarios flexibles, Alertas Críticas, historial de dosis, y un plan gratuito que es una herramienta completa, no una prueba. Sin cuentas, sin anuncios." />
+<meta name="theme-color" content="#0d0d0d" />
+<link rel="canonical" href="https://jayzil.com.br/es/applications/triaga/" />
+<link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/applications/triaga/" />
+<link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/applications/triaga/" />
+<link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/applications/triaga/" />
+<link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/applications/triaga/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Jayzil Studios" />
+<meta property="og:title" content="Triaga — Recordatorios de Medicación de Jayzil Studios" />
+<meta property="og:description" content="Triaga es una aplicación privada de recordatorios de medicación: horarios flexibles, Alertas Críticas, historial de dosis, y un plan gratuito que es una herramienta completa, no una prueba. Sin cuentas, sin anuncios." />
+<meta property="og:url" content="https://jayzil.com.br/es/applications/triaga/" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:locale:alternate" content="pt_BR" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:image" content="https://jayzil.com.br/assets/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Triaga — Recordatorios de Medicación" />
+<meta name="twitter:description" content="Una aplicación privada de recordatorios de medicación: horarios flexibles, Alertas Críticas, historial de dosis, y un plan gratuito completo." />
+<meta name="twitter:image" content="https://jayzil.com.br/assets/og-image.png" />
+<link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../../../assets/style.css?v=14" />
+<script>
+(function () {
+  var KEY = "jayzil-theme";
+  var COLORS = { dark: "#0d0d0d", light: "#f2ede6" };
+  var theme = localStorage.getItem(KEY) || "dark";
+  function apply(t) {
+    theme = t;
+    document.documentElement.setAttribute("data-theme", theme);
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute("content", COLORS[theme]);
+  }
+  apply(theme);
+  document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.querySelector(".theme-toggle");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      apply(theme === "dark" ? "light" : "dark");
+      localStorage.setItem(KEY, theme);
+    });
+  });
+})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Triaga",
+  "applicationCategory": "HealthApplication",
+  "description": "Aplicación de recordatorios de medicación que funciona completamente en el dispositivo, sin cuentas ni sincronización en la nube. Ofrece horarios flexibles, Alertas Críticas que superan el modo silencioso, historial de dosis, y un plan Premium opcional con recordatorios ilimitados, historial extendido y compartición en PDF.",
+  "url": "https://jayzil.com.br/es/applications/triaga/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jayzil Studios",
+    "url": "https://jayzil.com.br/es/"
+  }
+}
+</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="../../index.html">
+      <svg viewBox="0 0 104 104" xmlns="http://www.w3.org/2000/svg">
+        <polygon class="mark-fg" points="16,16 88,16 16,88"/>
+        <circle class="mark-accent" cx="82" cy="82" r="6"/>
+      </svg>
+      <span class="word">Jayzil Studios</span>
+    </a>
+    <div class="nav-links">
+      <a href="../../index.html#products">Productos</a>
+      <a href="../../index.html#studio">Estudio</a>
+      <a href="../../index.html#contact">Contacto</a>
+      <div class="lang-switch"><a href="../../../en/applications/triaga/index.html">EN</a></div>
+      <button type="button" class="theme-toggle" aria-label="Alternar tema"><span class="theme-dot"></span></button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <h1>Triaga</h1>
+    <p class="lede">Triaga envía recordatorios de medicación a la hora exacta, registra si cada dosis fue tomada, y mantiene todo privado en tu dispositivo. Detalles y respuestas abajo; contacto directo al final de la página.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="prose">
+      <h2>Qué hace Triaga</h2>
+      <p>Triaga es una aplicación de recordatorios de medicación construida sobre una idea: tu agenda de salud es tuya, no de un servidor. Configura un recordatorio una vez — para una dosis única, días específicos de la semana, o un intervalo que se repite, como cada 8 horas — y Triaga te notifica en el momento justo, incluso sin conexión a internet. Cuando llega un recordatorio, márcalo como Tomado, Omitido, o pospónlo para después, y cada dosis queda registrada en un historial claro que puedes revisar o compartir.</p>
+
+      <h2>Funciones</h2>
+      <ul>
+        <li><strong>Programación flexible</strong> — una vez, en días seleccionados, o repitiendo en un intervalo.</li>
+        <li><strong>Notificaciones offline confiables</strong> — la programación de alarmas exactas mantiene el horario preciso, sin necesidad de internet.</li>
+        <li><strong>Alertas Críticas</strong> — deja que un recordatorio suene incluso con el No Molestar o el silencio activados; una función de seguridad incluida gratis para todos los usuarios.</li>
+        <li><strong>Historial de dosis</strong> — un registro claro de Tomado / Omitido / Perdido para cada recordatorio.</li>
+        <li><strong>Copia de seguridad y restauración</strong> — exporta manualmente tus datos a un archivo y restáuralos en un nuevo dispositivo, sin necesidad de una cuenta en la nube.</li>
+        <li><strong>Compartir en PDF</strong> — comparte un informe del historial de dosis con un médico o cuidador (Premium).</li>
+        <li><strong>Temas claro, oscuro y Obsidian</strong> — Obsidian, un tema totalmente negro, es una opción Premium.</li>
+        <li>Disponible en <strong>español, inglés y portugués</strong>, siguiendo automáticamente el idioma de tu dispositivo.</li>
+      </ul>
+
+      <h2>Gratis y Premium</h2>
+      <p>El plan gratuito es una herramienta completa, no una prueba: controla hasta 3 medicamentos, una semana completa de historial, y todas las funciones de seguridad, incluidas las Alertas Críticas. Triaga Premium elimina el límite de recordatorios, extiende el historial a 90 días, y desbloquea la compartición en PDF y el tema Obsidian. Premium se cobra y gestiona íntegramente a través de Google Play, y puede consultarse, modificarse o cancelarse en cualquier momento desde la configuración de suscripciones de Google Play — consulta los <a href="terms.html" style="color:var(--accent);">Términos de Uso</a> para todos los detalles de facturación y cancelación.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section faq">
+  <div class="wrap">
+    <div class="prose">
+    <h2>Preguntas frecuentes</h2>
+
+    <div class="faq-item">
+      <h3>¿Cómo funcionan los recordatorios?</h3>
+      <p>Agrega un medicamento y elige un horario — una vez, en días específicos de la semana, o repitiendo en un intervalo. Triaga envía una notificación local en cada horario programado — sin necesidad de conexión a internet.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>No estoy recibiendo notificaciones. ¿Qué debo revisar?</h3>
+      <p>Confirma que las notificaciones estén activadas para Triaga en la configuración de tu dispositivo, y que la optimización de batería o el modo "No Molestar" no estén silenciando la aplicación. Si necesitas que los recordatorios suenen incluso con el teléfono en silencio, activa las Alertas Críticas en Configuración. Reinstalar la aplicación no restaura los recordatorios, a menos que configures el horario nuevamente o restaures una copia de seguridad.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>¿Puedo editar o eliminar un horario de medicación?</h3>
+      <p>Sí. Abre el medicamento en la lista principal para editar los horarios, las notas de dosis, o eliminarlo por completo.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>¿Qué pasa si me pierdo una dosis?</h3>
+      <p>Cada dosis se marca como Tomada, Omitida o Perdida y queda registrada en el historial. Triaga mostrará un recordatorio como pendiente hasta que actúes sobre él. Triaga no diagnostica, receta ni ofrece asesoramiento médico — sigue siempre las indicaciones de tu médico o farmacéutico.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>¿Qué son las Alertas Críticas?</h3>
+      <p>Las Alertas Críticas hacen que un recordatorio suene incluso con el teléfono en silencio o en modo No Molestar, para que una dosis real nunca quede enterrada en silencio. Es una función de seguridad, incluida gratis para todos los usuarios — actívala en Configuración.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>¿Triaga es gratis?</h3>
+      <p>Sí — el plan gratuito controla hasta 3 medicamentos, una semana completa de historial, e incluye las Alertas Críticas. Triaga Premium elimina el límite de recordatorios y agrega 90 días de historial, compartición en PDF y el tema Obsidian, cobrado a través de Google Play. Consulta "Gratis y Premium" arriba para más detalles.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>¿En qué idiomas está disponible Triaga?</h3>
+      <p>Español, inglés y portugués — Triaga sigue automáticamente el idioma de tu dispositivo.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>¿Necesito una cuenta?</h3>
+      <p>No. Triaga no tiene inicio de sesión y no sincroniza datos en ningún lugar. Todo se queda en tu dispositivo. Consulta la <a href="privacy.html" style="color:var(--accent);">Política de Privacidad</a> y los <a href="terms.html" style="color:var(--accent);">Términos de Uso</a> para más detalles.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>¿Cómo elimino mis datos, o cambio de teléfono?</h3>
+      <p>Desinstalar Triaga elimina todos los horarios y recordatorios almacenados localmente en tu dispositivo. Si vas a cambiar de dispositivo, usa Copia de seguridad y restauración en Configuración antes, para guardar un archivo que puedas restaurar después — de lo contrario, los datos no son recuperables.</p>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact" style="border-bottom:none;">
+  <div class="wrap">
+    <div class="prose">
+      <h2>¿Todavía necesitas ayuda?</h2>
+      <div class="contact-card">
+        <div>
+          <span class="mono tag">Soporte</span>
+          <h3 style="margin-top:10px;font-size:22px;">contato@jayzil.com.br</h3>
+        </div>
+        <a class="btn primary" href="mailto:contato@jayzil.com.br">Enviar correo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="mono">© 2026 Jayzil Studios</span>
+    <div class="links">
+      <a class="mono" href="privacy.html">Política de Privacidad</a>
+      <a class="mono" href="terms.html">Términos de Uso</a>
+      <a class="mono" href="mailto:contato@jayzil.com.br">contato@jayzil.com.br</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

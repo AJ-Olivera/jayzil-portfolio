@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Política de Privacidad de Triaga — Jayzil Studios</title>
+<meta name="description" content="Política de privacidad de Triaga, la aplicación de recordatorios de medicación de Jayzil Studios." />
+<meta name="theme-color" content="#0d0d0d" />
+<link rel="canonical" href="https://jayzil.com.br/es/applications/triaga/privacy.html" />
+<link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/applications/triaga/privacy.html" />
+<link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/applications/triaga/privacy.html" />
+<link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/applications/triaga/privacy.html" />
+<link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/applications/triaga/privacy.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Jayzil Studios" />
+<meta property="og:title" content="Política de Privacidad de Triaga — Jayzil Studios" />
+<meta property="og:description" content="Política de privacidad de Triaga, la aplicación de recordatorios de medicación de Jayzil Studios." />
+<meta property="og:url" content="https://jayzil.com.br/es/applications/triaga/privacy.html" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:locale:alternate" content="pt_BR" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:image" content="https://jayzil.com.br/assets/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Política de Privacidad de Triaga" />
+<meta name="twitter:description" content="Política de privacidad de Triaga, la aplicación de recordatorios de medicación." />
+<meta name="twitter:image" content="https://jayzil.com.br/assets/og-image.png" />
+<link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../../../assets/style.css?v=14" />
+<script>
+(function () {
+  var KEY = "jayzil-theme";
+  var COLORS = { dark: "#0d0d0d", light: "#f2ede6" };
+  var theme = localStorage.getItem(KEY) || "dark";
+  function apply(t) {
+    theme = t;
+    document.documentElement.setAttribute("data-theme", theme);
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute("content", COLORS[theme]);
+  }
+  apply(theme);
+  document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.querySelector(".theme-toggle");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      apply(theme === "dark" ? "light" : "dark");
+      localStorage.setItem(KEY, theme);
+    });
+  });
+})();
+</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="../../index.html">
+      <svg viewBox="0 0 104 104" xmlns="http://www.w3.org/2000/svg">
+        <polygon class="mark-fg" points="16,16 88,16 16,88"/>
+        <circle class="mark-accent" cx="82" cy="82" r="6"/>
+      </svg>
+      <span class="word">Jayzil Studios</span>
+    </a>
+    <div class="nav-links">
+      <a href="../../index.html#products">Productos</a>
+      <a href="../../index.html#studio">Estudio</a>
+      <a href="../../index.html#contact">Contacto</a>
+      <a href="terms.html">Términos de Uso</a>
+      <div class="lang-switch"><a href="../../../en/applications/triaga/privacy.html">EN</a></div>
+      <button type="button" class="theme-toggle" aria-label="Alternar tema"><span class="theme-dot"></span></button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <h1>Política de Privacidad</h1>
+    <p class="lede">Vigente a partir del 21 de julio de 2026. Esta política cubre únicamente la aplicación móvil Triaga.</p>
+  </div>
+</header>
+
+<section class="section" style="border-bottom:none;">
+  <div class="wrap">
+    <div class="prose">
+
+    <h2>Resumen</h2>
+    <p>Triaga fue desarrollado para funcionar completamente en tu dispositivo. No requiere cuenta, no se sincroniza con ningún servidor y no comparte tu información con terceros. Esta página explica en detalle qué significa esto, incluyendo los permisos que solicita Triaga y cómo se cobran las suscripciones Premium.</p>
+
+    <h2>Información que recopilamos</h2>
+    <p>Triaga no recopila datos personales en nuestros servidores. Los nombres de medicamentos, dosis, horarios, notas e historial de recordatorios — incluido un nombre de paciente opcional, usado en la compartición en PDF — se almacenan solo localmente en tu dispositivo, en la base de datos propia de la aplicación. Jayzil Studios no tiene acceso a esta información y no puede visualizarla, recuperarla ni restaurarla.</p>
+
+    <h2>Seguridad de los datos</h2>
+    <p>Estos datos están protegidos por la propia seguridad de tu dispositivo, como la pantalla de bloqueo o el cifrado completo del dispositivo, si tienes esa opción activada a nivel del sistema operativo. Triaga actualmente no añade una capa de cifrado propia además de esa.</p>
+
+    <h2>Cuentas e inicio de sesión</h2>
+    <p>Triaga no exige ni ofrece la creación de una cuenta. No hay inicio de sesión, y la aplicación no recopila ningún identificador personal (como nombre o correo electrónico).</p>
+
+    <h2>Copias de seguridad</h2>
+    <p>Triaga no sincroniza datos con Jayzil Studios ni con ningún servicio de nube de terceros, y no conserva ninguna copia de seguridad de tu información en servidores. La función Copia de seguridad y restauración, en la Configuración de la aplicación, permite exportar manualmente tus datos a un archivo, en el lugar que elijas, y restaurarlo después — por ejemplo, al cambiar de dispositivo. Ese archivo se crea y se comparte solo a través del menú de compartir de tu propio dispositivo, y nunca es enviado a ningún lugar por el propio Triaga. Si el sistema operativo de tu dispositivo tiene su propia función de copia de seguridad (como una copia de seguridad en la nube a nivel de sistema), esa copia es gestionada por el fabricante del dispositivo, no por Jayzil Studios.</p>
+
+    <h2>Suscripciones Premium y pagos</h2>
+    <p>Triaga ofrece una suscripción Premium opcional, que desbloquea funciones adicionales, como la compartición del historial de medicaciones en PDF, temas adicionales y un número ilimitado de recordatorios activos. Premium se cobra y gestiona íntegramente a través de Google Play Store: Jayzil Studios no recopila, procesa, almacena ni tiene acceso a tus datos bancarios, de tarjeta de crédito u otra información de pago. Las suscripciones se renuevan automáticamente al final de cada período, a menos que se cancelen con al menos 24 horas de anticipación a la renovación, y pueden consultarse, modificarse o cancelarse en cualquier momento desde la propia configuración de suscripciones de Google Play. Si una suscripción Premium finaliza, los recordatorios que excedan el límite del plan gratuito quedan pausados — no eliminados — mientras la aplicación permanezca instalada, y vuelven a funcionar automáticamente si se reactiva Premium.</p>
+
+    <h2>Terceros y análisis de datos</h2>
+    <p>Triaga no integra servicios de análisis, publicidad o rastreo de terceros de ningún tipo. El único tercero involucrado en el uso de Triaga es Google Play Store, que procesa los pagos de la suscripción Premium y distribuye la aplicación en Android — consulta la propia Política de Privacidad de Google para saber cómo trata esa información. Ningún dato es vendido o compartido con ningún otro tercero.</p>
+
+    <h2>Permisos</h2>
+    <p>Triaga solicita un pequeño número de permisos del dispositivo, cada uno usado únicamente para el propósito descrito aquí: permiso de notificaciones, para que la aplicación pueda avisarte en los horarios programados de medicación; y permiso para programar alarmas de hora exacta, que mantiene el horario de los recordatorios confiable en Android. Otros dos permisos son totalmente opcionales, solicitados solo si decides activarlos en Alertas Críticas, en Configuración: acceso a la configuración de No Molestar de tu dispositivo, para que un recordatorio crítico pueda sonar incluso con el teléfono en silencio, y una exención de la optimización de batería, que reduce aún más la posibilidad de una notificación retrasada. Ninguno de estos permisos le da a Triaga acceso a ningún otro dato de tu dispositivo.</p>
+
+    <h2>Eliminación de datos</h2>
+    <p>Como todos los datos se almacenan localmente, desinstalar la aplicación — o borrar los datos/caché en la configuración de tu dispositivo — elimina permanentemente todos los datos de Triaga. Jayzil Studios no conserva ninguna copia en servidores, por lo que los datos no pueden recuperarse tras la eliminación o sustitución de un dispositivo, a menos que hayas creado previamente un archivo de Copia de seguridad y restauración.</p>
+
+    <h2>Privacidad de menores de edad</h2>
+    <p>Triaga no está dirigido a niños ni adolescentes, y su uso presupone capacidad civil para aceptar estos términos. Si la aplicación es utilizada por un menor de edad, esto debe ocurrir solo bajo la supervisión y responsabilidad de un tutor legal, siendo este el único responsable de la información ingresada y del uso de la aplicación en su nombre.</p>
+
+    <h2>Legislación aplicable</h2>
+    <p>Como Triaga no recopila, transmite ni procesa datos personales en servidores propios o de terceros — toda la información permanece exclusivamente en el dispositivo del usuario —, las obligaciones de la Ley General de Protección de Datos (LGPD, Ley n.º 13.709/2018) relativas a los agentes de tratamiento no se aplican a Jayzil Studios en relación con estos datos. Esta política se rige por las leyes de la República Federativa de Brasil.</p>
+
+    <h2>Cambios a esta política</h2>
+    <p>Si esta política cambia, se publicará una versión actualizada en esta página y en la aplicación, con una nueva fecha de vigencia. Continuar usando Triaga después de un cambio significa que aceptas la política actualizada.</p>
+
+    <h2>Contacto</h2>
+    <div class="contact-card">
+      <div>
+        <span class="mono tag">Consultas sobre privacidad</span>
+        <h3 style="margin-top:10px;font-size:22px;">contato@jayzil.com.br</h3>
+      </div>
+      <a class="btn primary" href="mailto:contato@jayzil.com.br">Enviar correo</a>
+    </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="mono">© 2026 Jayzil Studios</span>
+    <div class="links">
+      <a class="mono" href="mailto:contato@jayzil.com.br">contato@jayzil.com.br</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
