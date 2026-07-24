@@ -102,6 +102,7 @@ p { color: var(--text-2); margin: 0; }
 
 .brand svg .mark-fg { fill: var(--fg); }
 .brand svg .mark-accent { fill: var(--accent); }
+.brand svg .mark-notch { fill: var(--bg); }
 
 .brand .word {
   font-family: var(--sans);
