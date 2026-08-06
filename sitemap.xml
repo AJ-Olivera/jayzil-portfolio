@@ -157,7 +157,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/" />
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -167,7 +167,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/" />
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -177,8 +177,98 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/" />
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/websites/english-course/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/english-course/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/english-course/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/english-course/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/english-course/" />
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/en/websites/english-course/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/english-course/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/english-course/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/english-course/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/english-course/" />
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/es/websites/english-course/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/english-course/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/english-course/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/english-course/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/english-course/" />
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/websites/english-course/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/english-course/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/english-course/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/english-course/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/english-course/privacy.html" />
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/en/websites/english-course/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/english-course/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/english-course/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/english-course/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/english-course/privacy.html" />
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/es/websites/english-course/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/english-course/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/english-course/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/english-course/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/english-course/privacy.html" />
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/websites/english-course/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/english-course/terms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/english-course/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/english-course/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/english-course/terms.html" />
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/en/websites/english-course/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/english-course/terms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/english-course/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/english-course/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/english-course/terms.html" />
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://jayzil.com.br/es/websites/english-course/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/english-course/terms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/english-course/terms.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/english-course/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/english-course/terms.html" />
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
   </url>
 </urlset>
