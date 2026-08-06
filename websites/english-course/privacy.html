@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Política de Privacidade do Curso de Inglês — Jayzil Studios</title>
+<meta name="description" content="Política de privacidade do Curso de Inglês, o curso por assinatura da Jayzil Studios." />
+<meta name="theme-color" content="#0d0d0d" />
+<link rel="canonical" href="https://jayzil.com.br/websites/english-course/privacy.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Jayzil Studios" />
+<meta property="og:title" content="Política de Privacidade do Curso de Inglês — Jayzil Studios" />
+<meta property="og:description" content="Política de privacidade do Curso de Inglês, o curso por assinatura da Jayzil Studios." />
+<meta property="og:url" content="https://jayzil.com.br/websites/english-course/privacy.html" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:image" content="https://jayzil.com.br/assets/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Política de Privacidade do Curso de Inglês" />
+<meta name="twitter:description" content="Política de privacidade do Curso de Inglês, o curso por assinatura da Jayzil Studios." />
+<meta name="twitter:image" content="https://jayzil.com.br/assets/og-image.png" />
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../../assets/style.css?v=15" />
+<script>
+(function () {
+  var KEY = "jayzil-theme";
+  var COLORS = { dark: "#0d0d0d", light: "#f2ede6" };
+  var theme = localStorage.getItem(KEY) || "dark";
+  function apply(t) {
+    theme = t;
+    document.documentElement.setAttribute("data-theme", theme);
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute("content", COLORS[theme]);
+  }
+  apply(theme);
+  document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.querySelector(".theme-toggle");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      apply(theme === "dark" ? "light" : "dark");
+      localStorage.setItem(KEY, theme);
+    });
+  });
+})();
+</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="../../index.html">
+      <svg viewBox="0 0 135.467 135.467" xmlns="http://www.w3.org/2000/svg">
+        <path class="mark-fg" d="M22.754,22.754H112.713L22.754,112.713Z"/>
+        <path class="mark-accent" d="M112.564,106.222L39.977,106.073L112.713,33.635Z"/>
+        <path class="mark-notch" d="M37.76,85.3L22.754,67.733L7.748,50.167L30.464,45.955L53.18,41.742L45.47,63.521Z"/>
+        <circle class="mark-fg" cx="112.713" cy="112.713" r="4.858"/>
+      </svg>
+      <span class="word">Jayzil Studios</span>
+    </a>
+    <div class="nav-links">
+      <a href="../../index.html#products">Produtos</a>
+      <a href="../../index.html#studio">Estúdio</a>
+      <a href="../../index.html#contact">Contato</a>
+      <a href="terms.html">Termos de Uso</a>
+      <button type="button" class="theme-toggle" aria-label="Alternar tema"><span class="theme-dot"></span></button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <h1>Política de Privacidade</h1>
+    <p class="lede">Vigente a partir de 6 de agosto de 2026. Esta política cobre apenas o Curso de Inglês.</p>
+  </div>
+</header>
+
+<section class="section" style="border-bottom:none;">
+  <div class="wrap">
+    <div class="prose">
+
+    <h2>Resumo</h2>
+    <p>O Curso de Inglês precisa de uma conta para salvar seu progresso entre lições e aparelhos, e de uma assinatura para liberar o acesso ao conteúdo. Esta página explica exatamente quais dados coletamos, por quê, e quais empresas processam pagamento e login em nosso nome.</p>
+
+    <h2>Informações que coletamos</h2>
+    <p>Ao criar uma conta, coletamos seu e-mail e a senha escolhida (a senha é gerenciada com segurança pelo Firebase Authentication, do Google — a Jayzil Studios nunca vê nem armazena sua senha em texto simples). Você também pode escolher um nome de usuário, exibido dentro do curso.</p>
+    <p>Conforme você avança no curso, salvamos seu progresso por lição: a melhor pontuação obtida em cada exercício e se a lição foi concluída. Também guardamos o status da sua assinatura (ativa, cancelada, em teste gratuito, etc.) e um identificador de cliente do Stripe, usado apenas para vincular sua conta à sua assinatura — nunca dados do seu cartão.</p>
+
+    <h2>Pagamentos</h2>
+    <p>A cobrança da assinatura é processada inteiramente pelo Stripe, um processador de pagamentos independente. A Jayzil Studios não coleta, não processa, não armazena e não tem acesso aos dados do seu cartão de crédito ou a outras informações financeiras — essas informações ficam exclusivamente com o Stripe. Consulte a <a href="https://stripe.com/br/privacy" style="color:var(--accent);" target="_blank" rel="noopener">Política de Privacidade do Stripe</a> para saber como eles tratam essas informações.</p>
+
+    <h2>Onde seus dados ficam armazenados</h2>
+    <p>Seus dados de conta e de progresso ficam armazenados no Firebase (Google Cloud), o provedor de autenticação e banco de dados usado pelo curso. Apenas você tem acesso ao seu próprio progresso — cada conta só pode ler e escrever os próprios dados, nunca os de outro aluno. A única exceção é o e-mail e nome de usuário, guardados também de forma legível para que, em caso de perda de acesso, seja possível localizar sua conta manualmente para prestar suporte.</p>
+    <p>A preferência de tema (claro ou escuro) fica salva apenas localmente no seu navegador (localStorage), e nunca é enviada para nenhum servidor.</p>
+
+    <h2>Terceiros envolvidos</h2>
+    <p>Dois terceiros processam dados em nosso nome: o <strong>Firebase</strong> (Google), para login e armazenamento do seu progresso, e o <strong>Stripe</strong>, para cobrança da assinatura. Nenhum outro terceiro tem acesso aos seus dados — o Curso de Inglês não usa serviços de análise, publicidade ou rastreamento de nenhum tipo, seguindo a mesma política de privacidade de todos os produtos da Jayzil Studios.</p>
+
+    <h2>Seus direitos (LGPD)</h2>
+    <p>Nos termos da Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018), você pode a qualquer momento solicitar: confirmação de quais dados temos sobre você, acesso a esses dados, correção de dados incompletos ou desatualizados, e exclusão da sua conta e de todos os dados associados. Para exercer qualquer um desses direitos, entre em contato pelo e-mail abaixo — hoje esse processo é feito manualmente pela nossa equipe, não há exclusão automática de conta dentro do curso.</p>
+
+    <h2>Retenção e exclusão de dados</h2>
+    <p>Mantemos seus dados de conta e progresso enquanto sua conta estiver ativa. Se você cancelar a assinatura, seus dados de progresso permanecem salvos, para o caso de você optar por assinar novamente no futuro — cancelar a assinatura não exclui a conta. Para excluir sua conta e todos os dados associados, entre em contato pelo e-mail abaixo.</p>
+
+    <h2>Privacidade de menores de idade</h2>
+    <p>O Curso de Inglês pode ser utilizado por estudantes de diversas idades. O cadastro e a contratação da assinatura pressupõem capacidade civil para aceitar esta política; caso o curso seja utilizado por um menor de idade, isso deve ocorrer sob supervisão e responsabilidade de um responsável legal, sendo este o responsável pelas informações cadastradas e pelo uso do curso em nome do menor.</p>
+
+    <h2>Alterações a esta política</h2>
+    <p>Caso esta política seja alterada, uma versão atualizada será publicada nesta página, com uma nova data de vigência. A permanência no uso do curso após uma alteração significa que você concorda com a política atualizada.</p>
+
+    <h2>Legislação aplicável</h2>
+    <p>Esta política é regida pelas leis da República Federativa do Brasil, incluindo a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018).</p>
+
+    <h2>Contato</h2>
+    <div class="contact-card">
+      <div>
+        <span class="mono tag">Dúvidas sobre privacidade</span>
+        <h3 style="margin-top:10px;font-size:22px;">contato@jayzil.com.br</h3>
+      </div>
+      <a class="btn primary" href="mailto:contato@jayzil.com.br">Enviar e-mail</a>
+    </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="mono">© 2026 Jayzil Studios</span>
+    <div class="links">
+      <a class="mono" href="mailto:contato@jayzil.com.br">contato@jayzil.com.br</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
