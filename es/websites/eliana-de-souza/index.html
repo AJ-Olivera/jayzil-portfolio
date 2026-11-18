@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Eliana de Souza — Sitio para cliente — Jayzil Studios</title>
+<meta name="description" content="Caso de estudio: cómo Jayzil Studios diseñó y construyó el sitio de Eliana de Souza, especialista en SEO y GEO, con design system propio, GSAP y diálogo continuo hasta la aprobación final." />
+<meta name="theme-color" content="#0d0d0d" />
+<link rel="canonical" href="https://jayzil.com.br/es/websites/eliana-de-souza/" />
+<link rel="alternate" hreflang="pt-BR" href="https://jayzil.com.br/websites/eliana-de-souza/" />
+<link rel="alternate" hreflang="en" href="https://jayzil.com.br/en/websites/eliana-de-souza/" />
+<link rel="alternate" hreflang="es" href="https://jayzil.com.br/es/websites/eliana-de-souza/" />
+<link rel="alternate" hreflang="x-default" href="https://jayzil.com.br/websites/eliana-de-souza/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Jayzil Studios" />
+<meta property="og:title" content="Eliana de Souza — Sitio para cliente — Jayzil Studios" />
+<meta property="og:description" content="Un sitio a medida, diseñado con la clienta, con design system propio y animaciones en GSAP. Mira cómo se hizo." />
+<meta property="og:url" content="https://jayzil.com.br/es/websites/eliana-de-souza/" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:locale:alternate" content="pt_BR" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:image" content="https://jayzil.com.br/assets/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Eliana de Souza — Sitio para cliente — Jayzil Studios" />
+<meta name="twitter:description" content="Un sitio a medida, diseñado con la clienta, con design system propio y animaciones en GSAP. Mira cómo se hizo." />
+<meta name="twitter:image" content="https://jayzil.com.br/assets/og-image.png" />
+<link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../../../assets/style.css?v=15" />
+<script>
+(function () {
+  var KEY = "jayzil-theme";
+  var COLORS = { dark: "#0d0d0d", light: "#f2ede6" };
+  var theme = localStorage.getItem(KEY) || "dark";
+  function apply(t) {
+    theme = t;
+    document.documentElement.setAttribute("data-theme", theme);
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute("content", COLORS[theme]);
+  }
+  apply(theme);
+  document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.querySelector(".theme-toggle");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      apply(theme === "dark" ? "light" : "dark");
+      localStorage.setItem(KEY, theme);
+    });
+  });
+})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Eliana de Souza — Jayzil Studios",
+  "url": "https://jayzil.com.br/es/websites/eliana-de-souza/",
+  "creator": { "@type": "Organization", "name": "Jayzil Studios", "url": "https://jayzil.com.br/" },
+  "about": "https://elianadesouza.com.br/"
+}
+</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="../../index.html">
+      <svg viewBox="0 0 135.467 135.467" xmlns="http://www.w3.org/2000/svg">
+        <path class="mark-fg" d="M22.754,22.754H112.713L22.754,112.713Z"/>
+        <path class="mark-accent" d="M112.564,106.222L39.977,106.073L112.713,33.635Z"/>
+        <path class="mark-notch" d="M37.76,85.3L22.754,67.733L7.748,50.167L30.464,45.955L53.18,41.742L45.47,63.521Z"/>
+        <circle class="mark-fg" cx="112.713" cy="112.713" r="4.858"/>
+      </svg>
+      <span class="word">Jayzil Studios</span>
+    </a>
+    <div class="nav-links">
+      <a href="../../index.html#products">Productos</a>
+      <a href="../../index.html#studio">Estudio</a>
+      <a href="../../index.html#contact">Contacto</a>
+      <div class="lang-switch"><a href="../../../en/websites/eliana-de-souza/index.html">EN</a></div>
+      <button type="button" class="theme-toggle" aria-label="Alternar tema"><span class="theme-dot"></span></button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <h1>Eliana de Souza</h1>
+    <p class="lede">Nuestro primer sitio para una clienta: un portafolio de SEO y GEO diseñado con Eliana, paso a paso, hasta que ella dijo "es esto". Aquí está cómo lo construimos, las técnicas que usamos y por qué tomamos cada decisión.</p>
+    <p style="margin-top:20px;"><span class="mono tag" style="margin-right:14px;">Diseñado con la clienta</span><span class="mono tag" style="margin-right:14px;">Design system propio</span><span class="mono tag" style="margin-right:14px;">GSAP + Lenis</span></p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="prose">
+      <h2>La clienta y el desafío</h2>
+      <p>Eliana de Souza es especialista en SEO y GEO (optimización para buscadores y para respuestas de IA) en Curitiba, Brasil. Necesitaba un sitio que hiciera lo que ella vende: ser encontrado, entendido y elegido. Además, quería mostrar los resultados de sus clientes de una forma <strong>más atractiva</strong>, que llamara la atención sin convertirse en un informe lleno de números.</p>
+      <p>El desafío era convertir casos de tráfico, gráficos y capturas en una experiencia clara, bonita y rápida, manteniendo la identidad que ella quería transmitir: profesional, segura y acogedora.</p>
+
+      <h2>Del briefing a la aprobación final</h2>
+      <p>Trabajamos en diálogo continuo con la clienta, desde el primer borrador hasta la publicación. Nada se entregó "terminado" sin ser visto, comentado y ajustado por ella.</p>
+      <ul><li><strong>Briefing</strong> — recopilamos sus diferenciales, el público, los casos y las dudas, incluyendo cómo mostrar los resultados con impacto.</li><li><strong>Referencia estética</strong> — definimos con ella el lenguaje visual deseado: fondo claro, un violeta llamativo y formas redondeadas.</li><li><strong>Design system</strong> — convertimos esas decisiones en reglas reutilizables, antes de diseñar la primera página.</li><li><strong>Versiones y ajustes</strong> — cada sección, imagen y animación pasó por rondas de revisión con ella, hasta llegar al resultado que quería.</li><li><strong>Aprobación final y publicación</strong> — el sitio solo salió al aire con su "ok", en elianadesouza.com.br.</li></ul>
+
+      <h2>La estética que ella pidió</h2>
+      <p>La clienta quería un aspecto limpio, profesional y fácil de confiar. Creamos un design system propio, con tokens de color, espaciado y tipografía, en temas claro y oscuro.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;margin:24px 0;"><div style="flex:1 1 120px;min-height:88px;background:#9f80ff;color:#1e1e1e;border:1px solid var(--border-strong);border-radius:24px;padding:14px 16px;display:flex;flex-direction:column;justify-content:flex-end;"><span class="mono" style="font-size:11px;">Violeta</span><span class="mono" style="font-size:11px;opacity:.8;">#9F80FF</span></div><div style="flex:1 1 120px;min-height:88px;background:#e8ddff;color:#1e1e1e;border:1px solid var(--border-strong);border-radius:24px;padding:14px 16px;display:flex;flex-direction:column;justify-content:flex-end;"><span class="mono" style="font-size:11px;">Lavanda</span><span class="mono" style="font-size:11px;opacity:.8;">#E8DDFF</span></div><div style="flex:1 1 120px;min-height:88px;background:#f9d299;color:#1e1e1e;border:1px solid var(--border-strong);border-radius:24px;padding:14px 16px;display:flex;flex-direction:column;justify-content:flex-end;"><span class="mono" style="font-size:11px;">Durazno</span><span class="mono" style="font-size:11px;opacity:.8;">#F9D299</span></div><div style="flex:1 1 120px;min-height:88px;background:#1e1e1e;color:#ffffff;border:1px solid var(--border-strong);border-radius:24px;padding:14px 16px;display:flex;flex-direction:column;justify-content:flex-end;"><span class="mono" style="font-size:11px;">Grafito</span><span class="mono" style="font-size:11px;opacity:.8;">#1E1E1E</span></div></div>
+      <ul><li><strong>Color</strong> — blanco y grises neutros como base, un violeta como color de marca y un durazno poco frecuente como acento.</li><li><strong>Tipografía</strong> — Montserrat en los títulos y Plus Jakarta Sans en el texto.</li><li><strong>Forma</strong> — botones en píldora, tarjetas redondeadas y una única sombra suave.</li><li><strong>Íconos</strong> — un conjunto propio de 27 íconos de trazo, sin emojis.</li><li><strong>Accesibilidad</strong> — pares de color con contraste mínimo de 4,5:1 en ambos temas.</li></ul>
+
+      <h2>Dinámico, sin perder velocidad</h2>
+      <p>Usamos herramientas modernas para que la navegación sea fluida y memorable, siempre respetando a quien prefiere menos movimiento.</p>
+      <ul><li><strong>GSAP 3 + ScrollTrigger</strong> — animaciones guiadas por el scroll, como la sección "Cómo trabajo", que queda fija mientras aparecen los pasos.</li><li><strong>GSAP SplitText</strong> — títulos que entran palabra por palabra, con máscara.</li><li><strong>Lenis</strong> — desplazamiento suave, sincronizado con GSAP.</li><li><strong>Carrusel de casos</strong> — estilo coverflow, con los detalles de cada resultado en un modal.</li><li><strong>Microinteracciones</strong> — botones con brillo, gráficos que se dibujan y franjas animadas que se pausan fuera de pantalla.</li><li><strong>prefers-reduced-motion</strong> — quien desactiva las animaciones en su sistema recibe el sitio sin movimiento.</li></ul>
+
+      <h2>Hecho para ser encontrado</h2>
+      <p>Al ser el sitio de una especialista en SEO, la base técnica tenía que ser ejemplar. Todo el sitio es HTML, CSS y JavaScript simples, sin frameworks pesados, e incluye:</p>
+      <ul><li>Metadatos completos, URL canónica y Open Graph.</li><li>Datos estructurados (JSON-LD): Person, ProfessionalService, WebSite y FAQPage.</li><li>Imágenes en WebP, con carga diferida.</li><li>Diseño responsivo, del celular al escritorio.</li><li>Formulario de contacto sin servidor propio, mediante Web3Forms.</li></ul>
+
+      <div class="contact-card">
+        <div>
+          <span class="mono tag">Estado</span>
+          <h3 style="margin-top:10px;font-size:22px;">En línea · elianadesouza.com.br</h3>
+        </div>
+        <a class="btn primary" href="https://elianadesouza.com.br/" target="_blank" rel="noopener">Visitar el sitio →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact" style="border-bottom:none;">
+  <div class="wrap">
+    <div class="prose">
+      <h2>El resultado</h2>
+      <p>El sitio está en línea y fue aprobado por la clienta. Es nuestro primer proyecto a medida y un buen retrato de lo que hacemos: escuchar, diseñar con criterio y entregar algo que tenga la cara de quien lo encargó.</p>
+      <div class="contact-card">
+        <div>
+          <span class="mono tag">¿Quieres un sitio así?</span>
+          <h3 style="margin-top:10px;font-size:22px;">Hablemos · contato@jayzil.com.br</h3>
+        </div>
+        <a class="btn primary" href="mailto:contato@jayzil.com.br?subject=Quiero%20un%20sitio">Enviar correo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="mono">© 2026 Jayzil Studios</span>
+    <div class="links">
+      <a class="mono" href="mailto:contato@jayzil.com.br">contato@jayzil.com.br</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
